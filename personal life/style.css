@@ -1,0 +1,125 @@
+/* General styles */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #984980;
+    padding: 20px;
+}
+
+h1 {
+    background-color: #b8a9b3;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+h2 {
+    background-color: #e176b3;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    font-style: italic;
+    background-image: url("[me.jpg (2).jpg]");
+    background: url("[me.jpg (2).jpg") no-repeat center center fixed, linear-gradient(to right, #eea2a2, #84c6e7), #c8f595;
+  background-opacity: 0.5;
+}
+
+img {
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Add some margin to separate the image from the text */
+    font-style: italic;
+}
+nav {
+    text-align: center;
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration:blink;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    border: 1px solid #d83737;
+    padding: 70px;
+    margin: 80px 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Contact section styles */
+
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    margin-bottom: 20px;
+}
+
+/* Media queries */
+
+@media (max-width: 600px) {
+    nav {
+        text-align: left;
+    }
+
+    nav ul {
+        margin-bottom: 20px;
+    }
+}
